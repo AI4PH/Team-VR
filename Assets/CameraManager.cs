@@ -14,9 +14,14 @@ public class CameraManager : MonoBehaviour
     {
         if (Input.GetKeyDown(TKey))
         {
-            camSwitch = !camSwitch;
-            FirstPersonCam.gameObject.SetActive(camSwitch);
-            ThirdPersonCam.gameObject.SetActive(!camSwitch);
+            SwitchCamera();
         }
+    }
+
+    public void SwitchCamera()
+    {
+        camSwitch = !camSwitch;
+        FirstPersonCam.gameObject.SetActive(camSwitch);
+        ThirdPersonCam.gameObject.SetActive(!camSwitch);
     }
 }
