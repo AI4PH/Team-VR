@@ -17,3 +17,15 @@ Follow the instructions to view the game within Unity:
 
 6. Enjoy!
 
+
+
+Follow the next steps to play on your VR headset:
+
+1. Make sure your game works through Unity by following the steps above.
+
+2. Plug in your HTC Vive headset and make sure it is recognized by SteamVR.
+
+3. When pressing the play button in Unity, SteamVR will automatically open and the game will be viewable through the headset.
+   (The controllers are not necessary for the game)
+
+4. Enjoy!
